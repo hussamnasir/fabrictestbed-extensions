@@ -87,3 +87,4 @@ class NodeUtils(AbcUtils):
         print(str(stdout.read(), "utf-8").replace("\\n", "\n"))
 
         client.close()
+        bastion.close()
